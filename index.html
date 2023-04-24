@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pokémon Carrusel</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img class="background-image" src="src/International_Pokémon_logo.svg.png" alt="Imagen de fondo">
+    <div id="card" class="carousel">
+      <div id="card-image">
+        <img class="slide" src="" alt="Slide">
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="prev-button">Anterior</button>
+      <button class="next-button">Siguiente</button>
+    </div>
+    <div id="stats-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="stats-pokemon-name"></h2>
+        <ul id="stats-list"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
